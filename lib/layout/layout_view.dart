@@ -19,7 +19,7 @@ class _LayoutViewState extends State<LayoutView> {
   int selectedIndex = 0;
   List<Widget> screensList = [
     const QuranView(),
-    const AhadithView(),
+    AhadithView(),
     const SebhaView(),
     const RadioView(),
     const SettingsView(),

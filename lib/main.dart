@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:islamic_app/core/theme/application_theme.dart';
 import 'package:islamic_app/layout/layout_view.dart';
+import 'package:islamic_app/moduls/ahadith/ahadith_details_view.dart';
+import 'package:islamic_app/moduls/quran/quran_details_view.dart';
 import 'package:islamic_app/moduls/splash/splash_view.dart';
 
 //Topics to learn in this application
@@ -28,6 +30,8 @@ class MyApp extends StatelessWidget {
         // Define your routes here (Callback function returns object from type SplashView)
         SplashView.routeName: (context) => const SplashView(),
         LayoutView.routeName: (context) => const LayoutView(),
+        QuranDetailsView.routeName: (context) => const QuranDetailsView(),
+        AhadithDetailsView.routeName: (context) => const AhadithDetailsView(),
       },
     );
   }

@@ -38,5 +38,34 @@ class ApplicationThemeManager {
         size: 28,
       ),
     ),
-  );
+      dividerTheme: DividerThemeData(
+        color: primaryColor,
+        space: 10,
+      ),
+      textTheme: TextTheme(
+        titleLarge: TextStyle(
+          fontFamily: "ElMessiri",
+          fontSize: 30,
+          color: Color(0xFF242424),
+          fontWeight: FontWeight.bold,
+        ),
+        bodyLarge: TextStyle(
+          fontFamily: "ElMessiri",
+          fontSize: 25,
+          color: Color(0xFF242424),
+          fontWeight: FontWeight.w600,
+        ),
+        bodyMedium: TextStyle(
+          fontFamily: "ElMessiri",
+          fontSize: 25,
+          color: Color(0xFF242424),
+          fontWeight: FontWeight.w400,
+        ),
+        bodySmall: TextStyle(
+          fontFamily: "ElMessiri",
+          fontSize: 20,
+          color: Color(0xFF242424),
+          fontWeight: FontWeight.w400,
+        ),
+      ));
 }
