@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:islamic_app/moduls/quran/quran_details_view.dart';
 import 'package:islamic_app/moduls/quran/widget/sora_title_widget.dart';
 
@@ -361,6 +362,7 @@ class _QuranViewState extends State<QuranView> {
   @override
   Widget build(BuildContext context) {
     var theme = Theme.of(context);
+    var lang = AppLocalizations.of(context)!;
 
     return Column(
       children: [

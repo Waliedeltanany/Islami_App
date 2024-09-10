@@ -62,6 +62,7 @@ class _AhadithViewState extends State<AhadithView> {
       String bodyContent = singleHadithData.substring(indexLength + 1);
       HadithData hadithData =
           HadithData(title: title, bodyContent: bodyContent);
+      setState(() {});
       hadithDataList.add(hadithData);
     }
   }
